@@ -1,13 +1,13 @@
 # Global LLM configuration
 [llm]
-model = "claude-3-5-sonnet"
-base_url = "https://api.openai.com/v1"
-api_key = "sk-..."
+model = "deepseek-reasoner"
+base_url = "https://api.deepseek.com"
+api_key = "sk-908ab67cb57d40bd88c33f941979ae9d"
 max_tokens = 4096
 temperature = 0.0
 
 # Optional configuration for specific LLM models
 [llm.vision]
-model = "claude-3-5-sonnet"
-base_url = "https://api.openai.com/v1"
-api_key = "sk-..."
+model = "deepseek-reasoner"
+base_url = "https://api.deepseek.com"
+api_key = "sk-908ab67cb57d40bd88c33f941979ae9d"
